@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>سياسة الاسترجاع</title>
+<style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f5f5f5;
+      color: #393131;
+      margin: 0;
+      padding: 0;
+      direction: rtl; /* Ensuring text flows right to left */
+      text-align: right; /* Aligning text to the right */
+    }
+    header {
+      background-color: #0055b0;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    section {
+      background: white;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #007BFF;
+    }
+    p, ul, li {
+      font-size: 16px;
+      line-height: 2;
+    }
+    ul {
+      padding-right: 20px; /* Right padding for RTL */
+      list-style-position: inside; /* Bullet points inside, aligned right */
+    }
+    .contact, .contact h2, .contact p {
+      text-align: center;
+    }
+    h3 {
+            color: red; /* لون النص أحمر */
+            margin: 0; /* إزالة الهوامش الافتراضية */
+            font-size: 36px; /* حجم الخط كبير */
+            text-align: left; /* Align text to the left side of the container */
+    }
+    .english {
+      color: rgb(77, 27, 27); /* Dark red text color */
+      margin: 0; /* Remove default margins */
+      font-size: 15px; /* Set font size */
+      text-align: left; /* Align text to the left side of the container */
+      direction: ltr; /* Ensuring text flows left to right */
+    }            
+    </style>
+</head>
+<body>
+<header>
+  <h1>الشروط والأحكام والخصوصية لتطبيق عالم التقسيط</h1>
+</header>
 
+<section>
+  <h2>مقدمة</h2>
+  <p>يلتزم العميل بقراءة هذه الشروط والأحكام وسياسة الخصوصية بعناية قبل استخدام خدماتنا للتأكد من الاطلاع والدراية الكاملة بها. حيث ان استخدام العميل لتطبيق عالم التقسيط، يعني أنه على إدراك تام بهذه الشروط والأحكام وسياسة الخصوصية ويوافق عليها ويلتزم بها. تحتفظ شركة عالم التقسيط بالحق في تعديل أو تغيير أي من هذه الشروط والأحكام وسياسة الخصوصية في أي وقت بدون أي إشعار مسبق منا بذلك، تسري هذه التغييرات فور نشرها أو الكشف عنها عبر تطبيق عالم التقسيط أو البوابة الالكترونية. يرجى مراجعة هذه الشروط والأحكام بشكل منتظم للحصول على كافة التحديثات. عند إجراء أية تعديلات على هذه الشروط والأحكام، فإن الاستمرار في استخدام تطبيق عالم التقسيط و/أو البوابة الإلكترونية يشكل موافقة منك على هذه التعديلات.</p>
+</section>
+
+<section>
+  <h2>معلومات عامة عن شركة عالم التقسيط وبيانات الاتصال:</h2>
+  <p> نحن شركة عالم التقسيط للمدفوعات والحلول التقنية، شركة مؤسسة ومنظمة طبقًا لقوانين جمهورية مصر العربية، مقيدة تحت سجل تجاري رقم 29791 والكائن مقرها الرئيسي في (الاسكندريه - العجمى) نقدم خدمات اعمال التوصيف والتحليل والتصميم للبرمجيات وقواعد البيانات والتطبيقات بمختلف انواعها وتقديم خدمات وتقديم خطط الدفع من خلال تطبيق عالم التقسيط
+</p>
+<p>كيفية الاتصال بنا:</p>
+<p> يمكنكم التواصل معنا مباشرة عن طريق الاتصال بممثلي خدمة العملاء على رقم 01555411763 أو عبر البريد الالكتروني التالي almaltaqsyt@gmail.com
+</p>
+</section>
+<section>
+    <h2>كيفية التواصل معكم:</h2>
+    <p>في حالة رغبتنا في التواصل معكم سنقوم بذلك عبر الاتصال بسيادتكم إما بواسطة الهاتف، أو البريد الإلكتروني، أو من خلال العنوان البريدي المسجل لدينا في قاعدة بيانات التطبيق أو موقعنا الالكتروني</p>
+</section>
