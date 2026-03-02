@@ -4,176 +4,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>الشروط والأحكام والخصوصية</title>
-
-  <style>
-    :root{
-      --brand:#0055b0;
-      --brand-2:#007BFF;
-      --bg:#f5f5f7;
-      --text:#1f2937;
-      --muted:#6b7280;
-      --card:#ffffff;
-      --border:#e5e7eb;
-      --shadow: 0 10px 25px rgba(0,0,0,.06);
-      --radius: 14px;
-      --max: 1360px;
-      --pad: 18px;
-    }
-
-    *{ box-sizing:border-box; }
-    html,body{ height:100%; }
-
-    body{
-      font-family: Arial, sans-serif;
-      margin:0;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 2;
-    }
-
-    /* Page container */
-    .page{
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 24px var(--pad) 48px;
-    }
-
-    /* Top header */
-    .topbar{
-      background: linear-gradient(135deg, var(--brand), #0b74ff);
-      color:#fff;
-      border-bottom: 1px solid rgba(255,255,255,.12);
-    }
-    .topbar .page{
-      padding: 22px var(--pad);
-    }
-    .topbar h1{
-      margin:0;
-      font-size: clamp(20px, 2.2vw, 30px);
-      line-height: 1.4;
-      text-align:center;
-      font-weight: 800;
-      letter-spacing: .2px;
-    }
-    .topbar p{
-      margin:10px 0 0;
-      text-align:center;
-      color: rgba(255,255,255,.9);
-      font-size: 14px;
-    }
-
-    /* Layout */
-    main{
-      display:grid;
-      grid-template-columns: 1fr;
-      gap: 16px;
-      margin-top: 18px;
-    }
-
-    /* Section card */
-    section{
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      padding: 18px 18px;
-    }
-
-    section h2{
-      margin: 0 0 10px;
-      font-size: 18px;
-      color: var(--brand-2);
-    }
-
-    section p{ margin: 10px 0; }
-
-    ul{
-      margin: 10px 0;
-      padding-right: 18px;
-    }
-    li{ margin: 8px 0; }
-
-    .note{
-      background: #f0f7ff;
-      border: 1px solid #dbeafe;
-      color: #0b3b7a;
-      padding: 14px 14px;
-      border-radius: 12px;
-    }
-
-    /* Divider header (for Privacy Policy / English) */
-    .divider{
-      margin-top: 8px;
-      padding: 12px 16px;
-      border-radius: var(--radius);
-      border: 1px solid var(--border);
-      background: #fff;
-      box-shadow: var(--shadow);
-      display:flex;
-      align-items:center;
-      justify-content: space-between;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .divider h2{
-      margin:0;
-      font-size: 18px;
-      color: var(--text);
-    }
-    .badge{
-      font-size: 12px;
-      padding: 6px 10px;
-      border-radius: 999px;
-      background: #eef2ff;
-      border: 1px solid #e0e7ff;
-      color: #3730a3;
-      white-space: nowrap;
-    }
-
-    /* English content block */
-    .englishWrap{
-      direction:ltr;
-      text-align:left;
-    }
-    .englishWrap h2{
-      color: #7a1b1b;
-    }
-    .englishWrap{
-      color: #3f3f46;
-    }
-
-    /* Footer */
-    footer{
-      margin-top: 20px;
-      padding: 18px 0 10px;
-      color: var(--muted);
-      text-align:center;
-    }
-    footer a{
-      color: var(--brand);
-      text-decoration: none;
-      font-weight: 700;
-    }
-    footer a:hover{ text-decoration: underline; }
-
-    /* Responsive */
-    @media (min-width: 900px){
-      section{
-        padding: 22px 24px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="../assets/policy.css" />
 </head>
 
 <body>
+  <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">
+    <span class="lang-icon" aria-hidden="true">&#127760;</span>
+    <span class="lang-code">EN</span>
+  </button>
   <header class="topbar">
     <div class="page">
       <h1>الشروط والأحكام والخصوصية لتطبيق عالم التقسيط</h1>
       <p>يرجى قراءة هذه الوثيقة بعناية قبل استخدام التطبيق أو البوابة الإلكترونية.</p>
+      <nav class="policy-nav">
+        <a href="../privacy-policy/index.html"><span data-lang="ar">الخصوصية</span><span data-lang="en">Privacy</span></a>
+        <a href="../return-policy/index.html"><span data-lang="ar">الاسترجاع</span><span data-lang="en">Returns</span></a>
+        <a href="../terms/index.html"><span data-lang="ar">الشروط</span><span data-lang="en">Terms</span></a>
+        <a href="../delete-account/index.html"><span data-lang="ar">حذف الحساب</span><span data-lang="en">Delete Account</span></a>
+      </nav>
     </div>
   </header>
 
-  <main class="page">
+  <main class="page policy-main">
 
     <section>
       <h2>مقدمة</h2>
@@ -704,5 +556,7 @@
     </footer>
 
   </main>
+  <script src="../assets/policy.js"></script>
 </body>
 </html>
+
